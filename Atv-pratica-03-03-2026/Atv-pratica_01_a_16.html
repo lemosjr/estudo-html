@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv-pratica 01 a 16</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .btn {
+            background-color: blue;
+            color: white;
+        }
+
+        .destaque {
+            font-weight: bold;
+            color: red;
+        }
+
+        #destaque {
+            font-weight: bold;
+        }
+
+        #destaque + p {
+            color: orange;
+        }
+
+        #menu {
+            text-align: center;
+        }
+
+        #rodape {
+            text-align: center;
+            background-color: grey;
+        }
+
+        #errado {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="topo">
+        <h1>Atv-pratica 01 a 16</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Sobre Nós</h2>
+            <p>Esta é uma página de exemplo para a atividade prática.</p>
+            <h2 class="titulo">Erro</h2>
+            <p id="errado">exemplo errado</p>
+            <p id="errado">com mesmo ID</p>
+            <button class="btn">Saiba Mais</button>
+        </section>
+        
+        <section class="card">
+            <h2 id="destaque">Destaque</h2>
+            <p>Este é um parágrafo em destaque.</p>
+            <button class="btn">Saiba Mais</button>
+        </section>
+
+        <section class="destaque">
+            <h2>Destaque Alternativo</h2>
+            <p>Este é outro parágrafo em destaque.</p>
+            <button class="btn">Saiba Mais</button>
+        </section>
+
+        <section id="conteudo">
+            <h2>Conteúdo</h2>
+            <p>Este é o conteúdo da página.</p>
+        </section>
+
+        <div id="principal">
+            <h2>Conteúdo Principal</h2>
+            <p>Este é o conteúdo principal da página.</p>
+        </div>
+    </main>
+    <footer id="rodape">
+        <p>© 2026 Atv-pratica_01_a_07. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
